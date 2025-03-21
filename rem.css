@@ -1,60 +1,65 @@
 :root {
     /* Schriftart & Größe */
-    /*--font-body: 'Inter', sans-serif !important;*/
     --font-body: 'Times', Times New Roman, serif;
-
     --font-size: 18px !important;
   
     /* Farben */
-    --background-primary:  #292544 !important;
+    --background-primary: #292544 !important;
     --background-secondary: #292544 !important;
-    --text-normal: #fff!important;
-    --text-muted: #fff0bb!important;
+    --text-normal: #fff !important;
+    --text-muted: #fff0bb !important;
     --accent-color: #fff0bb !important;
-    --rn-editor__rem__body__text: #fff0bb;
-    
+  
     /* Ränder & Schatten */
     --border-radius: 10px !important;
     --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3) !important;
-  }
-  
-  /* Karten & Container-Design */
-  .document-container, .rem-container {
+}
+
+/* Hintergrund für gesamte Seite */
+body, .remnote-container {
+    background-color: #292544 !important;
+}
+
+/* Textfarbe überall */
+body, .rem-container, .document-container, .rn-editor__rem__body__text {
+    color: #fff0bb !important;
+}
+
+/* Karten & Container-Design */
+.document-container, .rem-container {
     background: #292544 !important;
-    color: fff0bb;
     border-radius: var(--border-radius) !important;
     padding: 10px !important;
     box-shadow: var(--box-shadow) !important;
-  }
-  
-  /* Link-Design */
-  a {
+}
+
+/* Link-Design */
+a {
     color: var(--accent-color) !important;
     text-decoration: underline !important;
-  }
-  
-  /* Hervorgehobene Rems */
-  .rem-container--focused {
+}
+
+/* Hervorgehobene Rems */
+.rem-container--focused {
     background: rgba(138, 180, 248, 0.1) !important;
     border-left: 3px solid var(--accent-color) !important;
-  }
-  
-  /* Buttons */
-  button {
+}
+
+/* Buttons */
+button {
     background: #292544 !important;
-    color: #fff0bb!important;
+    color: #fff0bb !important;
     border-radius: var(--border-radius) !important;
     padding: 5px 10px !important;
     font-weight: bold !important;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background: #6295e2 !important;
-  }
-  
-  /* Text Selektion */
-  ::selection {
-    background: #292544  !important;
+}
+
+/* Text Selektion */
+::selection {
+    background: #292544 !important;
     color: #fff0bb !important;
-  }
-  
+}
