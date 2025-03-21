@@ -1,58 +1,47 @@
-/* a old backup file*/
-:root {
-    /* Schriftart & Größe */
-    --font-body: 'Times', Times New Roman, serif;
-    --font-size: 18px !important;
-  
-    /* Farben */
-    --background-primary: #292544 !important;
-    --background-secondary: #292544 !important;
-    --text-normal: #fff !important;
-    --text-muted: #fff0bb !important;
-    --accent-color: #fff0bb !important;
-  
-    /* Ränder & Schatten */
-    --border-radius: 10px !important;
-    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3) !important;
+/* the custom remnote design */
+
+
+/* Basis-Container */
+body, 
+.remnote-app, 
+.rn-main, 
+.rn-page, 
+.rn-editor,
+.rn-content-wrapper,
+.rn-queue-container {
+  background: #292544 !important;
+  color: #fff0bb !important;
 }
 
-/* Hintergrund für gesamte Seite */
-body, .remnote-container {
-    background-color: #292544 !important;
+
+.rn-document-wrapper{
+    background: #392544 !important;
 }
 
-/* Textfarbe überall */
-body, .rem-container, .document-container, .rn-editor__rem__body__text {
+.rn-pane__top-bar{
+    background: #2c1d35 !important;
+}
+
+.rn-editor__rem__body__text{
     color: #fff0bb !important;
 }
 
-/* Karten & Container-Design */
-.document-container, .rem-container {
-    background: #292544 !important;
-    border-radius: var(--border-radius) !important;
-    padding: 10px !important;
-    box-shadow: var(--box-shadow) !important;
-}
+/* Spezielle Bereiche */
+.rn-sidebar,
+.rn-modal,
+.rn-search-modal,
+.rn-floating-window,
+.rn-kanban-board,
+.rn-table-cell {
+  background: #292544 !important;
+  color: #fff0bb !important;
 
-/* Link-Design */
-a {
-    color: var(--accent-color) !important;
-    text-decoration: underline !important;
-}
-
-/* Hervorgehobene Rems */
-.rem-container--focused {
-    background: rgba(138, 180, 248, 0.1) !important;
-    border-left: 3px solid var(--accent-color) !important;
 }
 
 /* Buttons */
 button {
     background: #292544 !important;
     color: #fff0bb !important;
-    border-radius: var(--border-radius) !important;
-    padding: 5px 10px !important;
-    font-weight: bold !important;
 }
 
 button:hover {
@@ -61,6 +50,6 @@ button:hover {
 
 /* Text Selektion */
 ::selection {
-    background: #292544 !important;
+    background: #675daa !important;
     color: #fff0bb !important;
 }

@@ -17,7 +17,7 @@
 }
 
 /* Hintergrund für gesamte Seite */
-body, .remnote-container {
+body, .remnote-container, .document-container, .rn-editor__rem__body__text {
     background-color: #292544 !important;
 }
 
@@ -42,7 +42,7 @@ a {
 
 /* Hervorgehobene Rems */
 .rem-container--focused {
-    background: rgba(138, 180, 248, 0.1) !important;
+    background: #29254415 !important;
     border-left: 3px solid var(--accent-color) !important;
 }
 
@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-    background: #6295e2 !important;
+    background: #99c000 !important;
 }
 
 /* Text Selektion */
