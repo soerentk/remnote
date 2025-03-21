@@ -1,14 +1,17 @@
 :root {
     /* Schriftart & Größe */
-    --font-body: 'Inter', sans-serif !important;
-    --font-size: 16px !important;
+    /*--font-body: 'Inter', sans-serif !important;*/
+    --font-body: 'Times', Times New Roman, serif;
+
+    --font-size: 18px !important;
   
     /* Farben */
-    --background-primary: #121212 !important;
-    --background-secondary: #1e1e1e !important;
-    --text-normal: #e0e0e0 !important;
-    --text-muted: #a0a0a0 !important;
-    --accent-color: #8ab4f8 !important;
+    --background-primary:  #292544 !important;
+    --background-secondary: #292544 !important;
+    --text-normal: #fff!important;
+    --text-muted: #fff0bb!important;
+    --accent-color: #fff0bb !important;
+    --rn-editor__rem__body__text: #fff0bb;
     
     /* Ränder & Schatten */
     --border-radius: 10px !important;
@@ -17,7 +20,8 @@
   
   /* Karten & Container-Design */
   .document-container, .rem-container {
-    background: var(--background-secondary) !important;
+    background: #292544 !important;
+    color: fff0bb;
     border-radius: var(--border-radius) !important;
     padding: 10px !important;
     box-shadow: var(--box-shadow) !important;
@@ -37,8 +41,8 @@
   
   /* Buttons */
   button {
-    background: var(--accent-color) !important;
-    color: black !important;
+    background: #292544 !important;
+    color: #fff0bb!important;
     border-radius: var(--border-radius) !important;
     padding: 5px 10px !important;
     font-weight: bold !important;
@@ -50,7 +54,7 @@
   
   /* Text Selektion */
   ::selection {
-    background: var(--accent-color) !important;
-    color: black !important;
+    background: #292544  !important;
+    color: #fff0bb !important;
   }
   
