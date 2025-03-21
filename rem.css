@@ -1,4 +1,56 @@
-:root{
-    --font-body: Times, Times New Roman, serif;
-}
-
+:root {
+    /* Schriftart & Größe */
+    --font-body: 'Inter', sans-serif !important;
+    --font-size: 16px !important;
+  
+    /* Farben */
+    --background-primary: #121212 !important;
+    --background-secondary: #1e1e1e !important;
+    --text-normal: #e0e0e0 !important;
+    --text-muted: #a0a0a0 !important;
+    --accent-color: #8ab4f8 !important;
+    
+    /* Ränder & Schatten */
+    --border-radius: 10px !important;
+    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+  /* Karten & Container-Design */
+  .document-container, .rem-container {
+    background: var(--background-secondary) !important;
+    border-radius: var(--border-radius) !important;
+    padding: 10px !important;
+    box-shadow: var(--box-shadow) !important;
+  }
+  
+  /* Link-Design */
+  a {
+    color: var(--accent-color) !important;
+    text-decoration: underline !important;
+  }
+  
+  /* Hervorgehobene Rems */
+  .rem-container--focused {
+    background: rgba(138, 180, 248, 0.1) !important;
+    border-left: 3px solid var(--accent-color) !important;
+  }
+  
+  /* Buttons */
+  button {
+    background: var(--accent-color) !important;
+    color: black !important;
+    border-radius: var(--border-radius) !important;
+    padding: 5px 10px !important;
+    font-weight: bold !important;
+  }
+  
+  button:hover {
+    background: #6295e2 !important;
+  }
+  
+  /* Text Selektion */
+  ::selection {
+    background: var(--accent-color) !important;
+    color: black !important;
+  }
+  
