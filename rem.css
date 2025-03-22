@@ -1,5 +1,19 @@
 /* the custom remnote design */
 
+:root{
+    --background1: #292544;
+    --background2:  #170530;
+
+    --sidebar1: #392544;
+    --sidebar2: #240530;
+
+    --button1: #2c1d35;
+    --button2: #1e0429;
+
+    --hover: #99c000;
+
+    --color: #faf0cd;
+}
 
 /* Basis-Container */
 body, 
@@ -8,48 +22,65 @@ body,
 .rn-page, 
 .rn-editor,
 .rn-content-wrapper,
-.rn-queue-container {
-  background: #292544 !important;
-  color: #fff0bb !important;
+.rn-queue-container,
+.rn-editor__rem__body,
+.rn-editor-container {
+  background: var(--background2) !important;
+  color: var(--color) !important;
+}
+
+.rn-clr-background-primary{
+    background: var(--background2) !important;
+
+}
+
+
+.rn-editor__rem__body__text {
+    font-family: "Aptos", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 .rn-document-wrapper{
-    background: #392544 !important;
+    background: var(--background2) !important;
+
+}
+.rn-widget-tab-bar,
+.rn-sidebar{
+    background: var(--sidebar2) !important;
 }
 
-.rn-pane__top-bar{
-    background: #2c1d35 !important;
-}
-
-.rn-editor__rem__body__text{
-    color: #fff0bb !important;
+.rn-pane__top-bar,
+.rn-search-button{
+    background: var(--button2) !important;
 }
 
 /* Spezielle Bereiche */
-.rn-sidebar,
+.rn-editor__rem__body__text,
 .rn-modal,
 .rn-search-modal,
 .rn-floating-window,
 .rn-kanban-board,
 .rn-table-cell {
-  background: #292544 !important;
-  color: #fff0bb !important;
+  background: var(--background2) !important;
+  color: var(--color) !important;
 
 }
 
 /* Buttons */
 button {
-    background: #292544 !important;
-    color: #fff0bb !important;
+    background: var(--button2) !important;
+    color: var(--color) !important;
 }
 
 button:hover {
-    background: #99c000 !important;
+    background: var(--hover) !important;
 }
 
 /* Text Selektion */
 ::selection {
     background: #675daa !important;
-    color: #fff0bb !important;
+    color: var(--color) !important;
 }
