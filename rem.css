@@ -57,6 +57,10 @@ body,
     background: var(--button2) !important;
 }
 
+.rm-bold {
+  color: #99c000 !important;
+}
+
 /* Spezielle Bereiche */
 .rn-editor__rem__body__text,
 .rn-modal,
