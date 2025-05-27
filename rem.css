@@ -26,14 +26,12 @@ body,
 .rn-editor__rem__body,
 .rn-editor-container {
   background: var(--background2) !important;
-  color: var(--color) !important;
+  color: var(--hover) !important;
 }
 
 .rn-clr-background-primary{
     background: var(--background2) !important;
-
 }
-
 
 .rn-editor__rem__body__text {
     font-family: "Aptos", sans-serif !important;
@@ -57,14 +55,19 @@ body,
     background: var(--button2) !important;
 }
 
+.rn-doc-title{
+    color: var(--hover) !important;
+}
+
 
 /* Spezielle Bereiche */
 .rn-editor__rem__body__text,
 .rn-modal,
 .rn-search-modal,
-.rn-floating-window,
 .rn-kanban-board,
-.rn-table-cell {
+.rn-floating-window,
+.rn-table-cell
+ {
   background: var(--background2) !important;
   color: var(--color) !important;
 
